@@ -1,0 +1,80 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CentroDeportivoElBicho
+build_property.RootNamespace = CentroDeportivoElBicho
+build_property.ProjectDir = C:\Users\Felip\source\repos\CentroDeportivoElBicho\CentroDeportivoElBicho\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Felip\source\repos\CentroDeportivoElBicho\CentroDeportivoElBicho
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Cliente/IndexCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleENsaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Cliente/LoginCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxMb2dpbkNsaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Cliente/RegisterCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxSZWdpc3RlckNsaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Dueño/LoginDueño.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVlw7FvXExvZ2luRHVlw7FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Home/ListaCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0YUNsaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Home/QuienesSomos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWllbmVzU29tb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Home/ReservaAqui.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNlcnZhQXF1aS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Home/Ubicacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVYmljYWNpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Trabajador/LoginTrabajador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhYmFqYWRvclxMb2dpblRyYWJhamFkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-t0zdcz0h10

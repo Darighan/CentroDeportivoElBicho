@@ -1,0 +1,67 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RegisterClientes</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/RegisterCliente.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/RDElBicho.styles.css" asp-append-version="true" />
+</head>
+    <body>
+    <div class="container">
+        <div class="row">
+            <div class="row-1 d-flex justify-content-center justify-content-lg-start align-items-center">
+                <div class="col-12 col-lg-6 box p-4">
+                    <h1 class="text-center">Cree su cuenta de usuario</h1>
+
+                    <form action="" method='POST' class="row">
+                        <div class="mb-4">
+                            <label for="nombre" class="form-label">Nombre Completo</label>
+                            <input type="text" class="form-control" id="nombre" name='nombre' required placeholder="Ingrese su nombre aqui...">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="pass" class="form-label">Fecha de nacimineto</label>
+                            <input type="date" class="form-control" name='nacimiento' id="pass" required  min="1920-01-01">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="correo" class="form-label">Correo Electronico</label>
+                            <input type="email" class="form-control" name='correo' id="correo" required placeholder="Ejemplo: nombre@organizacion.com">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="telefono" class="form-label">Numero de telefono</label>
+                            <input type="number" class="form-control" name='telefono' id="telefono" required placeholder="Ejemplo: 9 1234 5678">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="telefono" class="form-label">Direccion</label>
+                            <input type="text" class="form-control" name='direccion' id="telefono" required placeholder="Ejemplo: Diego portales #4313">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="pass" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" name='password' id="pass" required placeholder="Cree una contraseña e ingresela aqui...">
+                        </div>
+
+                        <div class="botones">
+                            <input type="submit" class="btn btn-success" name='aceptar'></input>
+
+                            <a class="btn btn-danger" asp-controller="Cliente" asp-action="LoginCliente">Cancelar</a>
+
+                           
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </body>
+    <script src="../../bootstrap/js/bootstrap.min.js"></script>
+
+}

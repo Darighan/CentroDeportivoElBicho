@@ -1,0 +1,34 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <h2>Probar Traer datos de la base de datos</h2>
+   
+    <table>
+    <thead>
+    <tr>
+    <th> Nombre Cliente </th>
+    <th> Correo Electronico </th>
+    <th> Telefono Cliente </th>
+    <th> Nacimiento Cliente </th>
+    <th> Direccion Cliente </th>
+    </tr>
+    </thead>
+    <tbody>
+    @for(int i= 0; i <ViewBag.Personas.Count; i++)
+    {
+        <tr>
+        <td>@ViewBag.Personas[i].nombreCliente</td>
+        <td>@ViewBag.Personas[i].correoCliente</td>
+        <td>@ViewBag.Personas[i].telefonoCliente</td>
+        <td>@ViewBag.Personas[i].nacimientoCliente</td>
+        <td>@ViewBag.Personas[i].direccionCliente</td>
+    </tr>
+
+    }
+
+    
+    </tbody>
+    </table>
+
+}

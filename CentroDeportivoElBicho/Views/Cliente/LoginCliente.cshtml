@@ -1,0 +1,56 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LoginClientes</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/RDElBicho.styles.css" asp-append-version="true" />
+</head>
+        <body>
+    <div class="container">
+        <div class="row">
+            <div class="row-1 d-flex justify-content-center justify-content-lg-start align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="form py-3">
+                        <form action="" method="post" class="p-3">
+                            <h1 class="text-center">BIENVENIDO</h1>
+                            <div class="px-3">
+                                <label for="name" class="form-label">Correo</label>
+                                <input type="text" class="form-control" id="name" name="usuario" placeholder="Escriba su Correo aqui..." required>
+
+                                <div class="mensajes d-flex justify-content-between">
+
+                                    <p class="ms-1 mb-0  d-block" id="nameMessage">Rellene la casilla</p>
+
+                                    <p class="text-end" id="register"><a asp-controller="Cliente" asp-action="RegisterCliente">Registrate Aqui</a></p>
+                                </div>
+                            </div>
+
+
+                            <div class="py-1 px-3">
+                                <label for="password" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control border-1" id="password" name="contrasena" placeholder="Escriba su contraseña..." required>
+                                <p class="p-0 mb-0 ms-1 text-danger" id="passMessage">Rellene la casilla</p>
+
+                                <div class="d-flex justify-content-between">
+                                    <div class="botones mt-4 mb-2 d-flex justify-content-start align-items-center">
+                                        <button type="submit" class="btn btn-primary me-1" id="btn-submit">Ingresar</button>
+
+                                        <button type="button" class="btn btn-danger me-3">Cancelar</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+}

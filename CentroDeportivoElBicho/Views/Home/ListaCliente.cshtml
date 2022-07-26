@@ -1,0 +1,34 @@
+﻿@*
+ 
+*@
+@{
+    <h2>Probar Traer datos de la base de datos</h2>
+   
+    <table>
+    <thead>
+    <tr>
+    <th> Nombre Cliente </th>
+    <th> Correo Electronico </th>
+    <th> Telefono Cliente </th>
+    <th> Nacimiento Cliente </th>
+    <th> Direccion Cliente </th>
+    </tr>
+    </thead>
+    <tbody>
+    @for(int i= 0; i <ViewBag.Clientes.Count; i++)
+    {
+        <tr>
+        <td>@ViewBag.Clientes[i].nombreCliente</td>
+        <td>@ViewBag.Clientes[i].correoCliente</td>
+        <td>@ViewBag.Clientes[i].telefonoCliente</td>
+        <td>@ViewBag.Clientes[i].nacimientoCliente</td>
+        <td>@ViewBag.Clientes[i].direccionCliente</td>
+    </tr>
+
+    }
+
+    
+    </tbody>
+    </table>
+
+}
