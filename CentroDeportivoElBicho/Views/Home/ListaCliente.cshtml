@@ -2,33 +2,40 @@
  
 *@
 @{
-    <h2>Probar Traer datos de la base de datos</h2>
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ListadoClientes</title>
+    <link rel="stylesheet" href="../wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+    <h2>Listado Actual de Cliente Registrados en el Sistema</h2>
    
-    <table>
-    <thead>
+  
+    <table class="table">
+  <thead>
     <tr>
-    <th> Nombre Cliente </th>
-    <th> Correo Electronico </th>
-    <th> Telefono Cliente </th>
-    <th> Nacimiento Cliente </th>
-    <th> Direccion Cliente </th>
+      <th scope="col">#</th>
+      <th scope="col">Nombre Cliente</th>
+      <th scope="col">Correo Cliente</th>
+      <th scope="col">Telefono Cliente</th>
+      <th scope="col">Nacimiento Cliente</th>
+      <th scope="col">Direccion Cliente</th>
     </tr>
-    </thead>
-    <tbody>
-    @for(int i= 0; i <ViewBag.Clientes.Count; i++)
+  </thead>
+  <tbody>
+  @for(int i= 0; i <ViewBag.Clientes.Count; i++)
     {
         <tr>
-        <td>@ViewBag.Clientes[i].nombreCliente</td>
-        <td>@ViewBag.Clientes[i].correoCliente</td>
-        <td>@ViewBag.Clientes[i].telefonoCliente</td>
-        <td>@ViewBag.Clientes[i].nacimientoCliente</td>
-        <td>@ViewBag.Clientes[i].direccionCliente</td>
+        <th scope="row">@ViewBag.Clientes[i].idCliente</th>
+      <td>@ViewBag.Clientes[i].nombreCliente</td>
+       <td>@ViewBag.Clientes[i].correoCliente</td>
+       <td>@ViewBag.Clientes[i].telefonoCliente</td>
+       <td>@ViewBag.Clientes[i].nacimientoCliente</td>
+       <td>@ViewBag.Clientes[i].direccionCliente</td>
     </tr>
 
     }
-
-    
-    </tbody>
-    </table>
+  </tbody>
+</table>
 
 }
