@@ -12,11 +12,6 @@ namespace CentroDeportivoElBicho.Controllers
         }
         public IActionResult LoginDueño()
         {
-            var db = new ClienteContext();
-            var personas = db.Clientes.ToList();
-            ViewBag.Personas = personas;
-
-
             return View();
         }
     }

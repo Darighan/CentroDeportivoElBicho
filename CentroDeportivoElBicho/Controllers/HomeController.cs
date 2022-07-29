@@ -27,7 +27,7 @@ namespace CentroDeportivoElBicho.Controllers
         }
         public IActionResult Ubicacion()
         {
-            return View();
+            return Redirect("https://www.google.com/maps/place/Inacap/@-18.4690706,-70.3050283,17z/data=!3m1!4b1!4m5!3m4!1s0x915aa9a52e70dccd:0x7d52fb99c8b65011!8m2!3d-18.4690706!4d-70.3028396");
         }
 
         public IActionResult Privacy()
@@ -38,7 +38,7 @@ namespace CentroDeportivoElBicho.Controllers
         public IActionResult ListaCliente()
         {
             var db = new ClienteContext();
-            var clientes = db.Clientes.ToList();
+            List<Models.Cliente> clientes = db.Clientes.ToList();
             ViewBag.Clientes = clientes;
 
             return View();

@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Felip\source\repos\CentroDeportivoElBicho\CentroDeportivoElBicho
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Cliente/FormularioRegistro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxGb3JtdWxhcmlvUmVnaXN0cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Felip/source/repos/CentroDeportivoElBicho/CentroDeportivoElBicho/Views/Cliente/IndexCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleENsaWVudGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,64 @@
+﻿@model CentroDeportivoElBicho.Models.Cliente
+
+@{
+    ViewData["Title"] = "FormularioRegistro";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>FormularioRegistro</h1>
+
+<h4>Cliente</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="FormularioRegistro">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="nombreCliente" class="control-label"></label>
+                <input asp-for="nombreCliente" class="form-control" />
+                <span asp-validation-for="nombreCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="correoCliente" class="control-label"></label>
+                <input asp-for="correoCliente" class="form-control" />
+                <span asp-validation-for="correoCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="telefonoCliente" class="control-label"></label>
+                <input asp-for="telefonoCliente" class="form-control" />
+                <span asp-validation-for="telefonoCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nacimientoCliente" class="control-label"></label>
+                <input asp-for="nacimientoCliente" class="form-control" />
+                <span asp-validation-for="nacimientoCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="direccionCliente" class="control-label"></label>
+                <input asp-for="direccionCliente" class="form-control" />
+                <span asp-validation-for="direccionCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="passwordCliente" class="control-label"></label>
+                <input asp-for="passwordCliente" class="form-control" />
+                <span asp-validation-for="passwordCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="rolCliente" class="control-label"></label>
+                <input asp-for="rolCliente" class="form-control" />
+                <span asp-validation-for="rolCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

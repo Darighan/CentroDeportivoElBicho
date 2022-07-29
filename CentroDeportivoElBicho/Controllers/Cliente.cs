@@ -20,6 +20,19 @@ namespace CentroDeportivoElBicho.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ActionResult FormularioRegistro()
+        {
+
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult FormularioRegistro(Cliente _cliente)
+        {
+            return View();
+        }
+
 
 
     }
